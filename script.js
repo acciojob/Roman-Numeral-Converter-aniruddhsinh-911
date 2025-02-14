@@ -19,8 +19,6 @@ function convertToRoman(num) {
     return result;
 }
 
-console.log(convertToRoman(14));   
-console.log(convertToRoman(798));  
-console.log(convertToRoman(3999)); 
-console.log(convertToRoman(0));    
-console.log(convertToRoman(100000)); 
+// Take user input
+const userInput = parseInt(prompt("Enter a number: "), 10);
+console.log(convertToRoman(userInput));
